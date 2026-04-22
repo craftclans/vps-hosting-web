@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"  # Change this to the directory where your static files are located
+  command = "npm run build"  # If you have a build command; remove if not needed
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
